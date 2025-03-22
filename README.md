@@ -1,5 +1,11 @@
 # HyperStore - A Next.js E-commerce Application
 
+## Check Live
+
+You can check out the live version of the project at the following URL:
+
+[StoreHype - Live Demo](https://storehype.netlify.app/)
+
 Welcome to **HyperStore**, a simple web app built with [Next.js](https://nextjs.org). You may see the features below.
 
 ## Features
