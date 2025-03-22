@@ -5,6 +5,7 @@ import services from "@/services";
 import ProductsList from "@/components/product/ProductList";
 import { useShop } from "@/context/context";
 import { findCategories } from "../utils/findCategories";
+import Head from "next/head";
 
 const Products = () => {
   const { setProductsData, setIsProductsLoading, setCategories } = useShop();
@@ -25,6 +26,9 @@ const Products = () => {
 
   return (
     <div className="m-10">
+      <Head>
+        <title>Products</title>
+      </Head>
       <ProductsList></ProductsList>
     </div>
   );
