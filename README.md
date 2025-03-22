@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HyperStore - A Next.js E-commerce Application
+
+Welcome to **HyperStore**, a simple web app built with [Next.js](https://nextjs.org). You may see the features below.
+
+## Features
+
+- **Product Listings**: View a list of products with detailed information such as price, title, images, and ratings.
+- **Shopping Cart**: Add products to the cart and manage quantities.
+- **Wishlist**: Add items to the wishlist and view them in a dedicated section.
+- **Search Bar**: Filter products by their name or description.
+- **Responsive Design**: The application is mobile-friendly, ensuring a smooth experience across devices.
 
 ## Getting Started
 
