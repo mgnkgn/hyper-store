@@ -1,17 +1,22 @@
 import React from "react";
 import { Minus, Plus } from "lucide-react";
 import { useShop } from "@/context/context";
+import Image from "next/image";
 
 const CartItem = ({ product }) => {
   const { addToCart, reduceAmount, removeFromCart, cart } = useShop();
+
+  console.log({ product });
   return (
     <div className="bg-gray-100 border-b py-4 px-3 flex justify-between items-center hover:bg-gradient-to-b font-mono max-sm:text-sm from-gray-50 to-zinc-50 rounded-4xl transition duration-300 mt-2 hover:cursor-pointer">
       {/* Image */}
       <div className="flex flex-row items-center gap-14">
-        <img
+        <Image
           src={product.image}
           alt={product.title}
-          className="h-20 w-20 object-contain max-sm:hidden"
+          width={80}
+          height={80}
+          className="object-contain max-sm:hidden"
         />
 
         {/* Title */}

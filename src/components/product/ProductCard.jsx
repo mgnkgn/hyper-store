@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Rating from "./Rating";
 import { CirclePlus, Heart, HeartIcon } from "lucide-react";
 import { useShop } from "@/context/context";
+import Image from "next/image";
 
 const ProductCard = ({ product }) => {
   const [addHovered, setAddHovered] = useState(false);
@@ -22,9 +23,11 @@ const ProductCard = ({ product }) => {
       className={`bg-gray-200 bg-opacity-90 rounded-2xl p-4 hover:shadow-xl transition duration-300 flex flex-col h-full font-mono relative shadow-blue-700 `}
     >
       {/* Image */}
-      <img
+      <Image
         src={product.image}
         alt={product.title}
+        width={80}
+        height={80}
         className="h-50 w-full object-contain mb-4"
       />
 

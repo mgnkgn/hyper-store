@@ -2,6 +2,7 @@
 import React from "react";
 import { useShop } from "@/context/context";
 import { Trash2 } from "lucide-react";
+import Image from "next/image";
 
 const Wishlist = () => {
   const { wishlist, addOrRemoveToWishlist } = useShop();
@@ -16,9 +17,11 @@ const Wishlist = () => {
               key={product.id}
               className="flex items-center justify-between bg-gray-200 p-4 rounded-lg shadow-md"
             >
-              <img
+              <Image
                 src={product.image}
                 alt={product.title}
+                width={80}
+                height={80}
                 className="h-24 w-24 object-cover rounded-md"
               />
               <div className="flex-1 ml-4">
