@@ -15,6 +15,7 @@ Welcome to **HyperStore**, a simple web app built with [Next.js](https://nextjs.
 - **Wishlist**: Add items to the wishlist and view them in a dedicated section.
 - **Search Bar**: Filter products by their name or description.
 - **Responsive Design**: The application is mobile-friendly, ensuring a smooth experience across devices.
+- **Local Storage**: Cart and wishlist selections are persistent with local storage usage.
 
 ## Getting Started
 
